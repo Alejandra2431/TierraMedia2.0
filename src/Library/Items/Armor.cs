@@ -1,13 +1,20 @@
 namespace RoleplayGame
 {
-    public class Armor
+    public class Armor : Item
     {
-        public int DefenseValue
+        public override int DefenseValue
         {
             get
             {
                 return 25;
             }
+        }
+        public override int AttackValue 
+        {
+            get
+            {
+                return 0;
+            } 
         }
     }
 }
