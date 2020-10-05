@@ -1,8 +1,8 @@
 namespace RoleplayGame
 {
-    public class Spell
+    public class Spell: Item
     {
-        public int AttackValue
+        public override int AttackValue
         {
             get
             {
